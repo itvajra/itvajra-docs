@@ -73,6 +73,8 @@ nav:
               - Policy Author: policyhq/user-guide/quickstart-policy-author.md
               - Policy Approver: policyhq/user-guide/quickstart-policy-approver.md
               - Org User: policyhq/user-guide/quickstart-org-user.md
+          - Role Permissions: policyhq/user-guide/role-permissions.md
+          - Screenshots: policyhq/user-guide/screenshots.md
           - My Policies: policyhq/user-guide/my-policies.md
           - Policy Lifecycle: policyhq/user-guide/policy-lifecycle.md
           - Drafts: policyhq/user-guide/drafts.md
