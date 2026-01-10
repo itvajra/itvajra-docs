@@ -1,2 +1,2 @@
-# PolicyHQ Docs
+# IT Vajra Docs
 Welcome.
