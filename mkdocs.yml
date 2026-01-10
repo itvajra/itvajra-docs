@@ -1,5 +1,5 @@
 site_name: PolicyHQ Docs 
-site_url: https://itvajra.github.io/policyhq-docs/
+site_url: https://docs.itvajra.com/policyhq-docs/
 
 theme:
   name: material
