@@ -52,20 +52,22 @@ nav:
   - Home: index.md
   - PolicyHQ:
       - Overview: policyhq/index.md
-      - Architecture: policyhq/architecture.md
-      - Frontend: policyhq/frontend.md
-      - Backend: policyhq/backend.md
-      - Authentication: policyhq/authentication.md
-      - API: policyhq/api.md
-      - Data Model: policyhq/data-model.md
-      - Local Development: policyhq/local-dev.md
-      - Deployment: policyhq/deployment.md
+      - Platform:
+          - Architecture: policyhq/architecture.md
+          - Frontend: policyhq/frontend.md
+          - Backend: policyhq/backend.md
+          - Authentication: policyhq/authentication.md
+          - API: policyhq/api.md
+          - Data Model: policyhq/data-model.md
+      - Operations:
+          - Local Development: policyhq/local-dev.md
+          - Deployment: policyhq/deployment.md
       - User Guide:
           - Overview: policyhq/user-guide/index.md
           - Getting Started: policyhq/user-guide/getting-started.md
           - Navigation: policyhq/user-guide/navigation.md
-          - Notifications: policyhq/user-guide/notifications.md
           - Search and Filters: policyhq/user-guide/search-and-filters.md
+          - Notifications: policyhq/user-guide/notifications.md
           - Quickstarts:
               - Org Admin: policyhq/user-guide/quickstart-org-admin.md
               - Consultant Admin: policyhq/user-guide/quickstart-consultant-admin.md
@@ -74,21 +76,23 @@ nav:
               - Policy Approver: policyhq/user-guide/quickstart-policy-approver.md
               - Org User: policyhq/user-guide/quickstart-org-user.md
           - Role Permissions: policyhq/user-guide/role-permissions.md
+          - Daily Work:
+              - My Policies: policyhq/user-guide/my-policies.md
+              - Policy Lifecycle: policyhq/user-guide/policy-lifecycle.md
+              - Drafts: policyhq/user-guide/drafts.md
+              - Approvals: policyhq/user-guide/approvals.md
+              - Policies: policyhq/user-guide/policies.md
+              - Templates: policyhq/user-guide/templates.md
+              - Org Profile: policyhq/user-guide/org-profile.md
+              - Reports and Audit Logs: policyhq/user-guide/reports.md
+              - Exports: policyhq/user-guide/exports.md
+              - Users and Business Units: policyhq/user-guide/users-and-business-units.md
+              - Audit Logs: policyhq/user-guide/audit-logs.md
+          - Help:
+              - Troubleshooting: policyhq/user-guide/troubleshooting.md
+              - FAQ: policyhq/user-guide/faq.md
+              - Glossary: policyhq/user-guide/glossary.md
           - Screenshots: policyhq/user-guide/screenshots.md
-          - My Policies: policyhq/user-guide/my-policies.md
-          - Policy Lifecycle: policyhq/user-guide/policy-lifecycle.md
-          - Drafts: policyhq/user-guide/drafts.md
-          - Approvals: policyhq/user-guide/approvals.md
-          - Policies: policyhq/user-guide/policies.md
-          - Templates: policyhq/user-guide/templates.md
-          - Org Profile: policyhq/user-guide/org-profile.md
-          - Reports and Audit Logs: policyhq/user-guide/reports.md
-          - Exports: policyhq/user-guide/exports.md
-          - Users and Business Units: policyhq/user-guide/users-and-business-units.md
-          - Audit Logs: policyhq/user-guide/audit-logs.md
-          - Troubleshooting: policyhq/user-guide/troubleshooting.md
-          - FAQ: policyhq/user-guide/faq.md
-          - Glossary: policyhq/user-guide/glossary.md
   - Roles:
       - Overview: roles/index.md
       - Auditor (Read Only): roles/auditor-read-only.md
