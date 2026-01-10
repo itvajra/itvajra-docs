@@ -44,6 +44,8 @@ Columns (required by import):
 - `role` (string, required)
 - `business_groups` (string, optional, list of business units; `business_units` is accepted as an alias)
 
+Download the template: `policyhq/user-guide/assets/user-import-template.csv`
+
 ### Example CSV
 
 ```csv

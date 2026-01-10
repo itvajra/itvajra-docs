@@ -66,6 +66,13 @@ nav:
           - Navigation: policyhq/user-guide/navigation.md
           - Notifications: policyhq/user-guide/notifications.md
           - Search and Filters: policyhq/user-guide/search-and-filters.md
+          - Quickstarts:
+              - Org Admin: policyhq/user-guide/quickstart-org-admin.md
+              - Consultant Admin: policyhq/user-guide/quickstart-consultant-admin.md
+              - Super Admin: policyhq/user-guide/quickstart-super-admin.md
+              - Policy Author: policyhq/user-guide/quickstart-policy-author.md
+              - Policy Approver: policyhq/user-guide/quickstart-policy-approver.md
+              - Org User: policyhq/user-guide/quickstart-org-user.md
           - My Policies: policyhq/user-guide/my-policies.md
           - Policy Lifecycle: policyhq/user-guide/policy-lifecycle.md
           - Drafts: policyhq/user-guide/drafts.md

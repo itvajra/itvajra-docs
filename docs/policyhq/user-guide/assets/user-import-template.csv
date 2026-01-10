@@ -1,0 +1,5 @@
+display_name,email,role,business_groups
+John Doe,john@example.com,OrgUser,Sales;Marketing
+Admin User,admin@example.com,OrgAdmin,IT
+Policy Author,author@example.com,PolicyAuthor,Compliance
+Policy Approver,approver@example.com,PolicyApprover,Risk
