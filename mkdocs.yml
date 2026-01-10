@@ -1,0 +1,61 @@
+site_name: PolicyHQ Docs
+site_url: https://itvajra.github.io/policyhq-docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Roles:
+      - Overview: roles/index.md
+      - Auditor (Read Only): roles/auditor-read-only.md
+      - Consultant Admin: roles/consultant-admin.md
+      - Org Admin: roles/org-admin.md
+      - Org User: roles/org-user.md
+      - Policy Approver: roles/policy-approver.md
+      - Role Matrix: roles/role-matrix.md
+      - Super Admin: roles/super-admin.md
