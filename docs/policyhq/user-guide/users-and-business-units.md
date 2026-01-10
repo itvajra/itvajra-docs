@@ -37,34 +37,52 @@ Typical fields you will see or manage on a user:
 
 Use a UTF-8 CSV file with a header row. Required columns depend on your org settings, but the common fields are below.
 
-Columns (recommended):
+Columns (required by import):
 
+- `display_name` (string, required)
 - `email` (string, required)
-- `display_name` (string, optional)
 - `role` (string, required)
-- `business_units` (string, optional, comma-separated)
+- `business_groups` (string, optional, list of business units; `business_units` is accepted as an alias)
 
 ### Example CSV
 
 ```csv
-email,display_name,role,business_units
-alex.lee@example.com,Alex Lee,OrgAdmin,IT;Security
-priya.sharma@example.com,Priya Sharma,PolicyAuthor,HR
-mina.choi@example.com,Mina Choi,OrgUser,Finance;Procurement
-auditor@example.com,External Auditor,AuditorReadOnly,
+display_name,email,role,business_groups
+Alex Lee,alex.lee@example.com,OrgAdmin,IT;Security
+Priya Sharma,priya.sharma@example.com,PolicyAuthor,HR
+Mina Choi,mina.choi@example.com,OrgUser,Finance;Procurement
+Chris Patel,chris.patel@example.com,PolicyApprover,Compliance
 ```
 
 ### Data types and validation
 
-- `email`: must be a valid email format; duplicates are rejected or updated based on import options.
-- `display_name`: free text; use the full name shown in the UI.
-- `role`: must match one of the supported roles exactly (case sensitive).
-- `business_units`: list of existing unit names. Separate with `;` or `,` (your admin can confirm the delimiter).
+- `display_name`: required. Use the full name shown in the UI.
+- `email`: required and must be valid. Duplicates are updated if updates are allowed.
+- `role`: must match one of the allowed roles exactly.
+- `business_groups`: list of existing unit names. Separate with `;` or `,`.
+
+### Allowed roles for import
+
+- OrgUser
+- PolicyAuthor
+- PolicyApprover
+- OrgAdmin
+- ConsultantAdmin
+
+### Import preview statuses
+
+- Valid: no issues detected
+- Warning: row can import but may create new business units or update an existing user
+- Error: row cannot import and must be fixed
 
 ### Common import options
 
 - Send invites: emails users after import so they can sign in.
 - Allow updates: updates existing users instead of rejecting duplicates.
+
+### Business unit creation during import
+
+If the CSV lists a business unit that does not exist, PolicyHQ will create it automatically and assign the user to it. To avoid unintended units, use exact existing names.
 
 ## Manage business units
 

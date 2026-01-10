@@ -12,6 +12,10 @@
 2) Review the policy content, notes, and metadata.
 3) Choose `Approve` to finalize or `Request Changes` to send it back.
 
+## Decision notes
+
+Add a short comment explaining the decision. This appears in the policy history for auditability.
+
 ## Track decisions
 
 - Approved policies move to an approved state and become available for export.

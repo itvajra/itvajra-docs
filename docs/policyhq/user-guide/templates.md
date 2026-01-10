@@ -12,6 +12,17 @@
 3) Edit the template content and variables.
 4) Save changes.
 
+## Template fields
+
+- Title and description
+- Primary framework and mapped controls
+- Secondary frameworks (if used)
+- Variables used during policy generation
+
+## Template variables
+
+Use variables to insert organization-specific content (names, tools, or standards). These are resolved when generating a policy.
+
 ## When to update templates
 
 - When frameworks change or new controls are required.

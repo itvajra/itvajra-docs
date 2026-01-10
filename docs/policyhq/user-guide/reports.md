@@ -7,6 +7,10 @@
 3) Apply filters and date ranges.
 4) Export or download if available.
 
+## Compliance dashboard
+
+Use the compliance view to track status trends and identify overdue policies.
+
 ## Audit logs
 
 1) Open `Audit Logs`.

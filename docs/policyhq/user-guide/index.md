@@ -14,3 +14,5 @@ This section describes how end users interact with PolicyHQ day to day. It focus
 - How policy assignments, approvals, and reviews work
 - How to create policies and manage templates
 - How to export policies and run reports
+- How to manage users, business units, and org settings
+- How to troubleshoot common issues
