@@ -1,5 +1,5 @@
 site_name: PolicyHQ Docs 
-site_url: https://docs.itvajra.com/policyhq-docs/
+site_url: https://docs.itvajra.com/
 
 theme:
   name: material
@@ -20,7 +20,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: blue
-      accent: light green
+      accent: light-green
     - scheme: slate
       toggle:
         icon: material/toggle-switch
