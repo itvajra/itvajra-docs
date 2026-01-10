@@ -50,6 +50,16 @@ extra:
 
 nav:
   - Home: index.md
+  - PolicyHQ:
+      - Overview: policyhq/index.md
+      - Architecture: policyhq/architecture.md
+      - Frontend: policyhq/frontend.md
+      - Backend: policyhq/backend.md
+      - Authentication: policyhq/authentication.md
+      - API: policyhq/api.md
+      - Data Model: policyhq/data-model.md
+      - Local Development: policyhq/local-dev.md
+      - Deployment: policyhq/deployment.md
   - Roles:
       - Overview: roles/index.md
       - Auditor (Read Only): roles/auditor-read-only.md
