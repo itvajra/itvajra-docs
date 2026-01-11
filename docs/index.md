@@ -1,21 +1,37 @@
 # PolicyHQ Documentation
 
-PolicyHQ helps organizations create, review, and distribute policies with clear accountability. This documentation covers both end‑user workflows and the technical platform.
+PolicyHQ helps organizations create, review, and distribute policies with clear accountability. This site covers end‑user workflows, admin setup, and the technical platform.
 
 ## Start here
 
-- New to PolicyHQ? Begin with the User Guide overview.
-- Admins: use the Org Profile and Users/Business Units guides to complete setup.
-- Approvers and authors: review the policy lifecycle and approvals flow.
+**New to PolicyHQ?** Read the User Guide overview, then jump to the quickstart for your role.
 
-## Quick links
+## Quickstarts by role
+
+- Org Admin: `policyhq/user-guide/quickstart-org-admin.md`
+- Consultant Admin: `policyhq/user-guide/quickstart-consultant-admin.md`
+- Super Admin: `policyhq/user-guide/quickstart-super-admin.md`
+- Policy Author: `policyhq/user-guide/quickstart-policy-author.md`
+- Policy Approver: `policyhq/user-guide/quickstart-policy-approver.md`
+- Org User: `policyhq/user-guide/quickstart-org-user.md`
+
+## Most‑used guides
 
 - User Guide overview: `policyhq/user-guide/index.md`
-- Org Admin quickstart: `policyhq/user-guide/quickstart-org-admin.md`
-- Policy Approver quickstart: `policyhq/user-guide/quickstart-policy-approver.md`
-- Org User quickstart: `policyhq/user-guide/quickstart-org-user.md`
+- Policies (create, review, approve): `policyhq/user-guide/policies.md`
+- Approvals workflow: `policyhq/user-guide/approvals.md`
+- Users and Business Units: `policyhq/user-guide/users-and-business-units.md`
+- Exports and reports: `policyhq/user-guide/exports.md`
+
+## For admins and IT
+
 - Platform overview: `policyhq/index.md`
+- Architecture: `policyhq/architecture.md`
+- Authentication: `policyhq/authentication.md`
+- API overview: `policyhq/api.md`
+- Local development: `policyhq/local-dev.md`
 
 ## Need help?
 
-Check Troubleshooting and FAQ in the User Guide.
+- Troubleshooting: `policyhq/user-guide/troubleshooting.md`
+- FAQ: `policyhq/user-guide/faq.md`
