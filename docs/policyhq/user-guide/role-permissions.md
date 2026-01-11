@@ -16,4 +16,4 @@ This is a simplified view of what each role can access. For full details, see th
 | Audit Logs | – | – | – | ✓ | ✓ | ✓ |
 | Exports | – | – | – | ✓ | ✓ | ✓ |
 
-See the full matrix: `roles/role-matrix.md`
+See the full matrix: `policyhq/roles/role-matrix.md`

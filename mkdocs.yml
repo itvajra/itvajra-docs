@@ -63,6 +63,15 @@ nav:
       - Operations:
           - Local Development: policyhq/local-dev.md
           - Deployment: policyhq/deployment.md
+      - Roles:
+          - Overview: policyhq/roles/index.md
+          - Auditor (Read Only): policyhq/roles/auditor-read-only.md
+          - Consultant Admin: policyhq/roles/consultant-admin.md
+          - Org Admin: policyhq/roles/org-admin.md
+          - Org User: policyhq/roles/org-user.md
+          - Policy Approver: policyhq/roles/policy-approver.md
+          - Role Matrix: policyhq/roles/role-matrix.md
+          - Super Admin: policyhq/roles/super-admin.md
       - User Guide:
           - Overview: policyhq/user-guide/index.md
           - Getting Started: policyhq/user-guide/getting-started.md
@@ -94,12 +103,3 @@ nav:
               - FAQ: policyhq/user-guide/faq.md
               - Glossary: policyhq/user-guide/glossary.md
           - Screenshots: policyhq/user-guide/screenshots.md
-  - Roles:
-      - Overview: roles/index.md
-      - Auditor (Read Only): roles/auditor-read-only.md
-      - Consultant Admin: roles/consultant-admin.md
-      - Org Admin: roles/org-admin.md
-      - Org User: roles/org-user.md
-      - Policy Approver: roles/policy-approver.md
-      - Role Matrix: roles/role-matrix.md
-      - Super Admin: roles/super-admin.md
