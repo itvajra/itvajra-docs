@@ -1,4 +1,4 @@
-site_name: PolicyHQ Docs 
+site_name: Proofyx Platform Docs 
 site_url: https://docs.itvajra.com/
 
 theme:
@@ -51,7 +51,7 @@ extra:
 
 nav:
   - Home: index.md
-  - PolicyHQ:
+  - Proofyx Platform:
       - Overview: policyhq/index.md
       - Platform:
           - Architecture: policyhq/architecture.md
